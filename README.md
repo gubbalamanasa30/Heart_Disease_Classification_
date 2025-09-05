@@ -4,7 +4,7 @@ This project applies **machine learning** to predict the likelihood of heart dis
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 - Predict heart disease risk using health indicators.  
 - Compare classification models (Logistic Regression, Decision Tree, Naive Bayes, LDA, KNN).  
 - Apply data balancing, feature engineering, and model tuning.  
@@ -39,7 +39,7 @@ Heart disease risk detection is often hindered by **class imbalance**, where pos
 
 ---
 
-## 🔎 Methodology
+## Methodology
 1. **Data Preprocessing** – Handle imbalance with undersampling, standardize numerical features, create interaction and polynomial terms.  
 2. **Exploratory Data Analysis (EDA)** – Summary statistics, correlation analysis, and visualizations (histograms, boxplots, bar plots).  
 3. **Model Development** – Train Logistic Regression, Decision Tree, Naive Bayes, LDA, and KNN.  
@@ -48,7 +48,7 @@ Heart disease risk detection is often hindered by **class imbalance**, where pos
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 - **Naive Bayes** performed best on the balanced dataset:  
   - F1 Score = 0.985  
   - AUC = 0.999  
@@ -56,10 +56,3 @@ Heart disease risk detection is often hindered by **class imbalance**, where pos
 - Class imbalance significantly reduced recall and F1 scores in Logistic Regression, Decision Tree, and LDA.  
 
 ---
-
-
----
-
-## 👩‍💻 Author
-Developed as a healthcare-focused machine learning project to demonstrate how **data preprocessing, feature engineering, and algorithm selection** impact predictive performance.
-
